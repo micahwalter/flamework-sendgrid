@@ -77,7 +77,7 @@
 		# send via local MTA / or SendGrid if enabled
 		#
 
-		if (features_ensure_enabled("sendgrid")){
+		if ($GLOBALS['cfg']['enable_feature_sendgrid']){
 			
 			sendgrid_email_send($args['to_email'], $from_email, $subject, $message);
 			
