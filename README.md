@@ -1,6 +1,8 @@
 SendGrid SMTP
 ===
 
+*This is still a work in progress*
+
 This drop in library adds basic support for using SendGrid's SMTP service in a Flamework project.
 
 This library modifies the standard <code>lib_email.php</code> library file adding the feature flag for using SendGrid as your SMTP mailer throughout the existing Flamework core. You can choose to enable this by copying this <code>lib_email.php</code> over your existing file, and enabling the feature flags in <code>config.php</code>, or you can use the <code>lib_sendgrid.php</code> library on its own.
