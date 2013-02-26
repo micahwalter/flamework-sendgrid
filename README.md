@@ -1,7 +1,7 @@
 SendGrid SMTP
 ===
 
-*This is still a work in progress*
+**This is still a work in progress**
 
 This drop in library adds basic support for using SendGrid's SMTP service in a Flamework project.
 
