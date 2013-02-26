@@ -1,0 +1,10 @@
+<?
+	# Add these to your config.php file
+	#
+	# SendGrid Support
+	#
+	
+	$GLOBALS['cfg']['enable_feature_sendgrid'] = 1;
+	$GLOBALS['cfg']['sendgrid_username'] = 'YOUR-SENDGRID-USERNAME';
+	$GLOBALS['cfg']['sendgrid_password'] = 'YOU-SENDGRID-PASSWORD';
+	
