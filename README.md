@@ -7,7 +7,7 @@ This library modifies the standard <code>lib_email.php</code> library file addin
 
 This library also depends on the <code>sendgrip-php</code> API available here -- http://github.com/sendgrid/sendgrid-php. I've copied this library into the include folder for convenience, but please feel free to clone a current copy from the SendGrid GitHub account.
 
-The <code>flamework-sendgrid library</code> relies on three additional global variable. Be sure to add these to your <code>config.php</code> file and set with your SendGrid credentials.
+The flamework-sendgrid library relies on three additional global variables. Be sure to add these to your <code>config.php</code> file and set with your SendGrid credentials.
 
 <pre>$GLOBALS['cfg']['enable_feature_sendgrid'] = 1;
 $GLOBALS['cfg']['sendgrid_username'] = 'YOUR-SENDGRID-USERNAME';
