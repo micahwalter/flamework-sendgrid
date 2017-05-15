@@ -1,10 +1,16 @@
-<?
+<?php
+
 	# Add these to your config.php file
+
+	# SendGrid (email) Support
+
+	$GLOBALS['cfg']['enable_feature_email_sendgrid'] = 1;
+	$GLOBALS['cfg']['email_sendgrid_api_key'] = 'READ-FROM-SECRETS';
+
 	#
-	# SendGrid Support
+	# load these libraries on every page
 	#
-	
-	$GLOBALS['cfg']['enable_feature_sendgrid'] = 1;
-	$GLOBALS['cfg']['sendgrid_username'] = 'YOUR-SENDGRID-USERNAME';
-	$GLOBALS['cfg']['sendgrid_password'] = 'YOU-SENDGRID-PASSWORD';
-	
+
+	$GLOBALS['cfg']['autoload_libs'] = array(
+		'email_sendgrid',
+	);
